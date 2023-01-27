@@ -1,29 +1,29 @@
 {
-    "name": "laravel-enso/files",
+    "name": "cgdsoftware/files",
     "description": "File manager dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "files",
         "file-manager",
         "file-uploader"
     ],
-    "homepage": "https://github.com/laravel-enso/files",
+    "homepage": "https://github.com/cgdsoftware/files",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/image-transformer": "^2.0",
-        "laravel-enso/migrator": "^2.0",
-        "laravel-enso/track-who": "^2.0"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/image-transformer": "^2.0",
+        "cgdsoftware/migrator": "^2.0",
+        "cgdsoftware/track-who": "^2.0"
     },
     "autoload": {
         "psr-4": {
