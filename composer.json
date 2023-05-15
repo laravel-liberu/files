@@ -1,29 +1,29 @@
 {
-    "name": "cgdsoftware/files",
+    "name": "laravel-liberu/files",
     "description": "File manager dependency for Laravel Enso",
     "keywords": [
-        "cgdsoftware",
+        "laravel-liberu",
         "files",
         "file-manager",
         "file-uploader"
     ],
-    "homepage": "https://github.com/cgdsoftware/files",
+    "homepage": "https://github.com/laravel-liberu/files",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://cgdsoftware.com",
+            "homepage": "https://laravel-liberu.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "cgdsoftware/core": "^8.0",
-        "cgdsoftware/helpers": "^2.0",
-        "cgdsoftware/image-transformer": "^2.0",
-        "cgdsoftware/migrator": "^2.0",
-        "cgdsoftware/track-who": "^2.0"
+        "laravel-liberu/core": "^8.0",
+        "laravel-liberu/helpers": "^2.0",
+        "laravel-liberu/image-transformer": "^2.0",
+        "laravel-liberu/migrator": "^2.0",
+        "laravel-liberu/track-who": "^2.0"
     },
     "autoload": {
         "psr-4": {
