@@ -23,7 +23,7 @@ return new class extends Migration
 
             $table->boolean('is_public');
 
-            $table->integer('created_by')->unsigned()->nullable();
+            $table->bigInteger('created_by')->unsigned()->nullable();
             $table->foreign('created_by')->references('id')->on('users');
 
             $table->timestamps();
