@@ -54,7 +54,7 @@ class MakeFileIdUnique implements MigratesTable, Prioritization, ShouldRunManual
 
     private function models(): Collection
     {
-        $upgrade = Config::get('enso.files.upgrade');
+        $upgrade = Config::get('liberu.files.upgrade');
 
         return Collection::wrap($upgrade)
             ->filter(fn ($model) => class_exists($model));

@@ -60,7 +60,7 @@ class Type extends Model
     public function folder(): string
     {
         $folder = App::runningUnitTests()
-            ? Config::get('enso.files.testingFolder')
+            ? Config::get('liberu.files.testingFolder')
             : $this->folder;
 
         if (! Storage::has($folder)) {

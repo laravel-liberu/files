@@ -54,7 +54,7 @@ class FileTest extends TestCase
     /** @test */
     public function can_attach_file()
     {
-        $folder = Config::get('enso.files.testingFolder');
+        $folder = Config::get('liberu.files.testingFolder');
         $filename = 'test.txt';
 
         Storage::put("{$folder}/{$filename}", 'test');
@@ -138,7 +138,7 @@ class FileTest extends TestCase
 
     private function cleanUp()
     {
-        Storage::deleteDirectory(Config::get('enso.files.testingFolder'));
+        Storage::deleteDirectory(Config::get('liberu.files.testingFolder'));
     }
 }
 

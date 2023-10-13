@@ -50,7 +50,7 @@ class File extends Model
 
     public function temporaryLink(?int $minutes = null): string
     {
-        $limit = $minutes ?? Config::get('enso.files.linkExpiration');
+        $limit = $minutes ?? Config::get('liberu.files.linkExpiration');
         $expires = Carbon::now()->addSeconds($limit);
         $args = ['core.files.share', $expires, ['file' => $this->id]];
 
@@ -82,7 +82,7 @@ class File extends Model
 
     public function scopePaginated(Builder $query): Builder
     {
-        return $query->limit(Config::get('enso.files.paginate'));
+        return $query->limit(Config::get('liberu.files.paginate'));
     }
 
     public function scopeBetween(Builder $query, array $interval): Builder

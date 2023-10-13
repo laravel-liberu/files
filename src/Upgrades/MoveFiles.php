@@ -20,8 +20,8 @@ class MoveFiles implements MigratesData, ShouldRunManually
 
     public function __construct()
     {
-        $this->nonStandardFolders = Config::get('enso.files.nonStandardFolders');
-        $this->renameFolders = Config::get('enso.files.renameFolders');
+        $this->nonStandardFolders = Config::get('liberu.files.nonStandardFolders');
+        $this->renameFolders = Config::get('liberu.files.renameFolders');
     }
 
     public function isMigrated(): bool

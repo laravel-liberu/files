@@ -96,7 +96,7 @@ class Upload
     private function folder()
     {
         $folder = App::runningUnitTests()
-            ? Config::get('enso.files.testingFolder')
+            ? Config::get('liberu.files.testingFolder')
             : Type::for($this->attachable::class)->folder;
 
         if (! Storage::has($folder)) {
