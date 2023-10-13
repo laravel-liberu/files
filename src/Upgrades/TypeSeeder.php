@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Files\Upgrades;
+namespace LaravelLiberu\Files\Upgrades;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Files\Database\Seeders\TypeSeeder as Seeder;
-use LaravelEnso\Files\Models\Type;
-use LaravelEnso\Upgrade\Contracts\MigratesData;
+use LaravelLiberu\Files\Database\Seeders\TypeSeeder as Seeder;
+use LaravelLiberu\Files\Models\Type;
+use LaravelLiberu\Upgrade\Contracts\MigratesData;
 
 class TypeSeeder implements MigratesData
 {

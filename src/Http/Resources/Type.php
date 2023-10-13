@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Resources;
+namespace LaravelLiberu\Files\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Str;
-use LaravelEnso\Files\Models\Upload;
+use LaravelLiberu\Files\Models\Upload;
 
 class Type extends JsonResource
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Files\Models;
+namespace LaravelLiberu\Files\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\CascadesFileDeletion;
-use LaravelEnso\Files\Services\ImageProcessor;
-use LaravelEnso\Files\Services\Upload;
-use LaravelEnso\ImageTransformer\Services\ImageTransformer;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\CascadesFileDeletion;
+use LaravelLiberu\Files\Services\ImageProcessor;
+use LaravelLiberu\Files\Services\Upload;
+use LaravelLiberu\ImageTransformer\Services\ImageTransformer;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\Users\Models\User;
 use ReflectionClass;
 use Symfony\Component\HttpFoundation\File\File as BaseFile;
 use Symfony\Component\HttpFoundation\StreamedResponse;

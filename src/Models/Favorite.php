@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Models;
+namespace LaravelLiberu\Files\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class Favorite extends Model
 {

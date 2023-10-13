@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Controllers\File;
+namespace LaravelLiberu\Files\Http\Controllers\File;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Files\Http\Requests\ValidateLink;
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\Files\Http\Requests\ValidateLink;
+use LaravelLiberu\Files\Models\File;
 
 class Link extends Controller
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Files\Upgrades;
+namespace LaravelLiberu\Files\Upgrades;
 
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Upgrade\Contracts\MigratesData;
-use LaravelEnso\Upgrade\Contracts\MigratesTable;
-use LaravelEnso\Upgrade\Contracts\ShouldRunManually;
-use LaravelEnso\Upgrade\Helpers\Table;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Upgrade\Contracts\MigratesData;
+use LaravelLiberu\Upgrade\Contracts\MigratesTable;
+use LaravelLiberu\Upgrade\Contracts\ShouldRunManually;
+use LaravelLiberu\Upgrade\Helpers\Table;
 
 class FileIsPublic implements MigratesTable, MigratesData, ShouldRunManually
 {

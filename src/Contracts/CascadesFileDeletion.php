@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Files\Contracts;
+namespace LaravelLiberu\Files\Contracts;
 
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\Files\Models\File;
 
 interface CascadesFileDeletion
 {

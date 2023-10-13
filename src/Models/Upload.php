@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Files\Models;
+namespace LaravelLiberu\Files\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\CascadesFileDeletion;
-use LaravelEnso\Files\Http\Resources\File as Resource;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\CascadesFileDeletion;
+use LaravelLiberu\Files\Http\Resources\File as Resource;
 
 class Upload extends Model implements Attachable, CascadesFileDeletion
 {

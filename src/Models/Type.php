@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Files\Models;
+namespace LaravelLiberu\Files\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File as FileFacade;
 use Illuminate\Support\Facades\Storage;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\PublicFile;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\Tables\Traits\TableCache;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\PublicFile;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Tables\Traits\TableCache;
 
 class Type extends Model
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Controllers\Type;
+namespace LaravelLiberu\Files\Http\Controllers\Type;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Files\Models\Type;
-use LaravelEnso\Helpers\Traits\AvoidsDeletionConflicts;
+use LaravelLiberu\Files\Models\Type;
+use LaravelLiberu\Helpers\Traits\AvoidsDeletionConflicts;
 
 class Destroy extends Controller
 {

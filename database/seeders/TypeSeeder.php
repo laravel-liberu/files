@@ -1,20 +1,20 @@
 <?php
 
-namespace LaravelEnso\Files\Database\Seeders;
+namespace LaravelLiberu\Files\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use LaravelEnso\Avatars\Models\Avatar;
-use LaravelEnso\DataExport\Models\Export;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\DataImport\Models\RejectedImport;
-use LaravelEnso\Documents\Models\Document;
-use LaravelEnso\Files\Models\Type;
-use LaravelEnso\Files\Models\Upload;
-use LaravelEnso\HowTo\Models\Poster;
-use LaravelEnso\HowTo\Models\Video;
-use LaravelEnso\Products\Models\Picture;
-use LaravelEnso\Webshop\Models\Brand;
-use LaravelEnso\Webshop\Models\CarouselSlide;
+use LaravelLiberu\Avatars\Models\Avatar;
+use LaravelLiberu\DataExport\Models\Export;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Models\RejectedImport;
+use LaravelLiberu\Documents\Models\Document;
+use LaravelLiberu\Files\Models\Type;
+use LaravelLiberu\Files\Models\Upload;
+use LaravelLiberu\HowTo\Models\Poster;
+use LaravelLiberu\HowTo\Models\Video;
+use LaravelLiberu\Products\Models\Picture;
+use LaravelLiberu\Webshop\Models\Brand;
+use LaravelLiberu\Webshop\Models\CarouselSlide;
 
 class TypeSeeder extends Seeder
 {

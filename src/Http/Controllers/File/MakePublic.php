@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Controllers\File;
+namespace LaravelLiberu\Files\Http\Controllers\File;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Files\Http\Resources\File as Resource;
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\Files\Http\Resources\File as Resource;
+use LaravelLiberu\Files\Models\File;
 
 class MakePublic extends Controller
 {

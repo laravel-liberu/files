@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Files;
+namespace LaravelLiberu\Files;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Files\Dynamics\Relations\FavoriteFiles;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Files\Dynamics\Relations\FavoriteFiles;
+use LaravelLiberu\Users\Models\User;
 
 class AppServiceProvider extends ServiceProvider
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Controllers\File;
+namespace LaravelLiberu\Files\Http\Controllers\File;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\Files\Models\File;
 
 class Destroy extends Controller
 {

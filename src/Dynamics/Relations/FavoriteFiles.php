@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Files\Dynamics\Relations;
+namespace LaravelLiberu\Files\Dynamics\Relations;
 
 use Closure;
-use LaravelEnso\DynamicMethods\Contracts\Method;
-use LaravelEnso\Files\Models\Favorite;
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Files\Models\Favorite;
+use LaravelLiberu\Files\Models\File;
 
 class FavoriteFiles implements Method
 {

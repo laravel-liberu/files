@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Database\Factories;
+namespace LaravelLiberu\Files\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-use LaravelEnso\Files\Models\Type;
+use LaravelLiberu\Files\Models\Type;
 
 class TypeFactory extends Factory
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Requests;
+namespace LaravelLiberu\Files\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use LaravelEnso\Files\Enums\TemporaryLinkDuration;
+use LaravelLiberu\Files\Enums\TemporaryLinkDuration;
 
 class ValidateLink extends FormRequest
 {

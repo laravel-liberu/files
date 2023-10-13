@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Files\Http\Controllers\File\Share;
+use LaravelLiberu\Files\Http\Controllers\File\Share;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/core')

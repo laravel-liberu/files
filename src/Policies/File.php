@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Policies;
+namespace LaravelLiberu\Files\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use LaravelEnso\Files\Models\File as Model;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Files\Models\File as Model;
+use LaravelLiberu\Users\Models\User;
 
 class File
 {

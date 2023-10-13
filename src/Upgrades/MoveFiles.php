@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Files\Upgrades;
+namespace LaravelLiberu\Files\Upgrades;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Upgrade\Contracts\MigratesData;
-use LaravelEnso\Upgrade\Contracts\ShouldRunManually;
-use LaravelEnso\Upgrade\Helpers\Table;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Upgrade\Contracts\MigratesData;
+use LaravelLiberu\Upgrade\Contracts\ShouldRunManually;
+use LaravelLiberu\Upgrade\Helpers\Table;
 
 class MoveFiles implements MigratesData, ShouldRunManually
 {

@@ -1,20 +1,20 @@
 <?php
 
-namespace LaravelEnso\Files\Services;
+namespace LaravelLiberu\Files\Services;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\Extensions;
-use LaravelEnso\Files\Contracts\MimeTypes;
-use LaravelEnso\Files\Contracts\OptimizesImages;
-use LaravelEnso\Files\Contracts\ResizesImages;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Files\Models\Type;
-use LaravelEnso\ImageTransformer\Services\ImageTransformer;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\Extensions;
+use LaravelLiberu\Files\Contracts\MimeTypes;
+use LaravelLiberu\Files\Contracts\OptimizesImages;
+use LaravelLiberu\Files\Contracts\ResizesImages;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Files\Models\Type;
+use LaravelLiberu\ImageTransformer\Services\ImageTransformer;
 
 class Upload
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Files\Upgrades;
+namespace LaravelLiberu\Files\Upgrades;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
@@ -9,12 +9,12 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Files\Models\Type;
-use LaravelEnso\Upgrade\Contracts\MigratesTable;
-use LaravelEnso\Upgrade\Contracts\Prioritization;
-use LaravelEnso\Upgrade\Contracts\ShouldRunManually;
-use LaravelEnso\Upgrade\Helpers\Table;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Files\Models\Type;
+use LaravelLiberu\Upgrade\Contracts\MigratesTable;
+use LaravelLiberu\Upgrade\Contracts\Prioritization;
+use LaravelLiberu\Upgrade\Contracts\ShouldRunManually;
+use LaravelLiberu\Upgrade\Helpers\Table;
 
 class DropMorphModels implements MigratesTable, Prioritization, ShouldRunManually
 {

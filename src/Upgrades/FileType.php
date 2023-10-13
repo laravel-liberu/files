@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Files\Upgrades;
+namespace LaravelLiberu\Files\Upgrades;
 
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Upgrade\Contracts\MigratesTable;
-use LaravelEnso\Upgrade\Contracts\Prioritization;
-use LaravelEnso\Upgrade\Contracts\ShouldRunManually;
-use LaravelEnso\Upgrade\Helpers\Table;
+use LaravelLiberu\Upgrade\Contracts\MigratesTable;
+use LaravelLiberu\Upgrade\Contracts\Prioritization;
+use LaravelLiberu\Upgrade\Contracts\ShouldRunManually;
+use LaravelLiberu\Upgrade\Helpers\Table;
 
 class FileType implements MigratesTable, Prioritization, ShouldRunManually
 {

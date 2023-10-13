@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Controllers\File;
+namespace LaravelLiberu\Files\Http\Controllers\File;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Files\Http\Resources\File;
-use LaravelEnso\Files\Models\Type;
+use LaravelLiberu\Files\Http\Resources\File;
+use LaravelLiberu\Files\Models\Type;
 
 class Browse extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Exceptions;
+namespace LaravelLiberu\Files\Exceptions;
 
 use Illuminate\Http\File as IlluminateFile;
 use Illuminate\Http\UploadedFile;
-use LaravelEnso\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
 use Symfony\Component\HttpFoundation\File\File as SymfonyFile;
 
 class File extends EnsoException

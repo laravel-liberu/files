@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Files\Upgrades;
+namespace LaravelLiberu\Files\Upgrades;
 
-use LaravelEnso\Upgrade\Contracts\MigratesStructure;
-use LaravelEnso\Upgrade\Traits\StructureMigration;
+use LaravelLiberu\Upgrade\Contracts\MigratesStructure;
+use LaravelLiberu\Upgrade\Traits\StructureMigration;
 
 class Permissions implements MigratesStructure
 {

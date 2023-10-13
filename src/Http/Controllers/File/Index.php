@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Controllers\File;
+namespace LaravelLiberu\Files\Http\Controllers\File;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Files\Http\Resources\Type as Resource;
-use LaravelEnso\Files\Models\Type;
+use LaravelLiberu\Files\Http\Resources\Type as Resource;
+use LaravelLiberu\Files\Models\Type;
 
 class Index extends Controller
 {

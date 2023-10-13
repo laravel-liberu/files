@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Files\Enums;
+namespace LaravelLiberu\Files\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class TemporaryLinkDuration extends Enum
 {

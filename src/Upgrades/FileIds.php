@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Files\Upgrades;
+namespace LaravelLiberu\Files\Upgrades;
 
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Upgrade\Contracts\BeforeMigration;
-use LaravelEnso\Upgrade\Contracts\MigratesTable;
-use LaravelEnso\Upgrade\Helpers\Column;
+use LaravelLiberu\Upgrade\Contracts\BeforeMigration;
+use LaravelLiberu\Upgrade\Contracts\MigratesTable;
+use LaravelLiberu\Upgrade\Helpers\Column;
 
 class FileIds implements MigratesTable, BeforeMigration
 {

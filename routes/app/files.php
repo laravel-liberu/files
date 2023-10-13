@@ -1,18 +1,18 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Files\Http\Controllers\File\Browse;
-use LaravelEnso\Files\Http\Controllers\File\Destroy;
-use LaravelEnso\Files\Http\Controllers\File\Download;
-use LaravelEnso\Files\Http\Controllers\File\Favorite;
-use LaravelEnso\Files\Http\Controllers\File\Favorites;
-use LaravelEnso\Files\Http\Controllers\File\Index;
-use LaravelEnso\Files\Http\Controllers\File\Link;
-use LaravelEnso\Files\Http\Controllers\File\MakePrivate;
-use LaravelEnso\Files\Http\Controllers\File\MakePublic;
-use LaravelEnso\Files\Http\Controllers\File\Recent;
-use LaravelEnso\Files\Http\Controllers\File\Show;
-use LaravelEnso\Files\Http\Controllers\File\Update;
+use LaravelLiberu\Files\Http\Controllers\File\Browse;
+use LaravelLiberu\Files\Http\Controllers\File\Destroy;
+use LaravelLiberu\Files\Http\Controllers\File\Download;
+use LaravelLiberu\Files\Http\Controllers\File\Favorite;
+use LaravelLiberu\Files\Http\Controllers\File\Favorites;
+use LaravelLiberu\Files\Http\Controllers\File\Index;
+use LaravelLiberu\Files\Http\Controllers\File\Link;
+use LaravelLiberu\Files\Http\Controllers\File\MakePrivate;
+use LaravelLiberu\Files\Http\Controllers\File\MakePublic;
+use LaravelLiberu\Files\Http\Controllers\File\Recent;
+use LaravelLiberu\Files\Http\Controllers\File\Show;
+use LaravelLiberu\Files\Http\Controllers\File\Update;
 
 Route::prefix('files')
     ->as('files.')

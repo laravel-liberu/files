@@ -1,14 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Files\Http\Controllers\Type\Create;
-use LaravelEnso\Files\Http\Controllers\Type\Destroy;
-use LaravelEnso\Files\Http\Controllers\Type\Edit;
-use LaravelEnso\Files\Http\Controllers\Type\ExportExcel;
-use LaravelEnso\Files\Http\Controllers\Type\InitTable;
-use LaravelEnso\Files\Http\Controllers\Type\Store;
-use LaravelEnso\Files\Http\Controllers\Type\TableData;
-use LaravelEnso\Files\Http\Controllers\Type\Update;
+use LaravelLiberu\Files\Http\Controllers\Type\Create;
+use LaravelLiberu\Files\Http\Controllers\Type\Destroy;
+use LaravelLiberu\Files\Http\Controllers\Type\Edit;
+use LaravelLiberu\Files\Http\Controllers\Type\ExportExcel;
+use LaravelLiberu\Files\Http\Controllers\Type\InitTable;
+use LaravelLiberu\Files\Http\Controllers\Type\Store;
+use LaravelLiberu\Files\Http\Controllers\Type\TableData;
+use LaravelLiberu\Files\Http\Controllers\Type\Update;
 
 Route::prefix('fileTypes')
     ->as('fileTypes.')

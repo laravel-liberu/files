@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Files;
+namespace LaravelLiberu\Files;
 
-use LaravelEnso\Enums\EnumServiceProvider as ServiceProvider;
-use LaravelEnso\Files\Enums\TemporaryLinkDuration;
+use LaravelLiberu\Enums\EnumServiceProvider as ServiceProvider;
+use LaravelLiberu\Files\Enums\TemporaryLinkDuration;
 
 class EnumServiceProvider extends ServiceProvider
 {

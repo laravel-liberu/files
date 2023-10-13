@@ -7,12 +7,12 @@ use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\Extensions;
-use LaravelEnso\Files\Contracts\MimeTypes;
-use LaravelEnso\Files\Exceptions\File as Exception;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\Extensions;
+use LaravelLiberu\Files\Contracts\MimeTypes;
+use LaravelLiberu\Files\Exceptions\File as Exception;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class FileTest extends TestCase

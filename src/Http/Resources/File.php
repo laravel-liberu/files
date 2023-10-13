@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Resources;
+namespace LaravelLiberu\Files\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use LaravelEnso\Helpers\Services\DiskSize;
-use LaravelEnso\Users\Http\Resources\User;
+use LaravelLiberu\Helpers\Services\DiskSize;
+use LaravelLiberu\Users\Http\Resources\User;
 
 class File extends JsonResource
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Files\Forms\Builders;
+namespace LaravelLiberu\Files\Forms\Builders;
 
-use LaravelEnso\Files\Models\Type as Model;
-use LaravelEnso\Forms\Services\Form;
+use LaravelLiberu\Files\Models\Type as Model;
+use LaravelLiberu\Forms\Services\Form;
 
 class Type
 {

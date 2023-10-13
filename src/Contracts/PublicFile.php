@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Files\Contracts;
+namespace LaravelLiberu\Files\Contracts;
 
 interface PublicFile
 {

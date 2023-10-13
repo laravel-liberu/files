@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Tables\Builders;
+namespace LaravelLiberu\Files\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Files\Models\Type as Model;
-use LaravelEnso\Tables\Contracts\Table;
+use LaravelLiberu\Files\Models\Type as Model;
+use LaravelLiberu\Tables\Contracts\Table;
 
 class Type implements Table
 {

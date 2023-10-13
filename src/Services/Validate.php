@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Files\Services;
+namespace LaravelLiberu\Files\Services;
 
 use Illuminate\Http\File;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
-use LaravelEnso\Files\Exceptions\File as Exception;
+use LaravelLiberu\Files\Exceptions\File as Exception;
 
 class Validate
 {

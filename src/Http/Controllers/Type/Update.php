@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Controllers\Type;
+namespace LaravelLiberu\Files\Http\Controllers\Type;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Files\Http\Requests\ValidateType;
-use LaravelEnso\Files\Models\Type;
+use LaravelLiberu\Files\Http\Requests\ValidateType;
+use LaravelLiberu\Files\Models\Type;
 
 class Update extends Controller
 {

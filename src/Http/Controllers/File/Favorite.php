@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Files\Http\Controllers\File;
+namespace LaravelLiberu\Files\Http\Controllers\File;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Files\Models\Favorite as Model;
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\Files\Models\Favorite as Model;
+use LaravelLiberu\Files\Models\File;
 
 class Favorite extends Controller
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Files\Services;
+namespace LaravelLiberu\Files\Services;
 
 use Illuminate\Support\Facades\Validator;
-use LaravelEnso\ImageTransformer\Services\ImageTransformer;
+use LaravelLiberu\ImageTransformer\Services\ImageTransformer;
 use Symfony\Component\HttpFoundation\File\File;
 
 class ImageProcessor
