@@ -4,10 +4,10 @@ namespace LaravelLiberu\Files\Exceptions;
 
 use Illuminate\Http\File as IlluminateFile;
 use Illuminate\Http\UploadedFile;
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 use Symfony\Component\HttpFoundation\File\File as SymfonyFile;
 
-class File extends EnsoException
+class File extends LiberuException
 {
     public static function duplicates($files)
     {
